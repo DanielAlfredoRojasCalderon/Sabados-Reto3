@@ -1,0 +1,111 @@
+*{
+    padding: 0.125rem;
+    margin: 0;
+   
+}
+body{
+    
+    justify-content: center;  
+    /*distribuye horizontal*/ 
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.titulos{
+    width: 99.4%;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    align-content: center;
+    height: 15vh;
+    border-bottom: 0.1rem solid #e1e1e1;
+    justify-self: center; 
+}
+h1{
+    font-size: 3.1rem;
+}
+header span{
+    color: rgb(3, 123, 192);
+}
+.navFooter{
+    width: 50rem;
+    display: flex;
+    /*centra a los elementos dentro del contenedor NAV*/
+    justify-content: center;
+    /*se alinea a si mismo OSEA AL CONTENEDOR NAV, centro , start , .*/
+    justify-self: center; 
+    margin-top: 1rem;
+    gap: 10rem;
+}
+a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 0.031rem;
+    margin-top: 0.625rem;
+     
+ }
+.imgPrincipal{
+    width: 94rem;
+    height: 55rem;
+    /*CORTA LA IMAGEN*/
+    clip-path: polygon(0 15%, 100% 15%, 100% 90%, 0% 90%);
+    margin-top: -6rem;
+    margin-bottom: -2.8rem;
+}
+h2{
+    font-size: 2.8rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    
+}
+.cateProductos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+.divCate{
+    gap: 1rem;
+}
+.segundaSection{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 31rem;
+    
+
+    
+}
+.itemSegunCat{
+    background-image: url(img/nosotros.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+.sitemSegunCat{
+    background-color: #037bc0;
+    text-align: start;
+    align-content: center;
+    padding-left: 5rem;
+        
+
+}
+.segundaSection h3{
+    color: white;
+    font-size: 2.5rem;
+    padding-bottom: 1.8rem;
+    font-family: 'Playfair Display', serif;
+}
+.segundaSection p{
+    color: white;
+    width: 28rem;
+    font-size: 0.9rem;
+    unicode-bidi: isolate;
+    /*espacio entre palabras*/
+    word-spacing: 0.2rem;
+    /*espacio entre lineas*/
+    line-height: 1.8rem ;
+
+}
