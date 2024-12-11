@@ -64,18 +64,37 @@ h2{
     display: flex;
     flex-direction: row;
     justify-content: center;
+
     gap: 1rem;
+    height: 21rem ;
+
+
 }
 .divCate{
-    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25rem;
+ 
+}
+
+.divCate>img{
+    width: 100%;
+    border: solid black;
+
+}
+
+.textoBajo{
+    background-color: blue;
+    height: 25rem;
+    width: 100%;
+    align-content: center;
+    align-self: center;
 }
 .segundaSection{
     display: grid;
     grid-template-columns: 50% 50%;
-    height: 31rem;
-    
-
-    
+    height: 31rem;  
 }
 .itemSegunCat{
     background-image: url(img/nosotros.jpg);
@@ -107,5 +126,89 @@ h2{
     word-spacing: 0.2rem;
     /*espacio entre lineas*/
     line-height: 1.8rem ;
+}
+.bloquePrincipal{
+    width: 72rem;
+    justify-self: center;
 
+
+}
+.primerBloque{
+    display: flex;
+    flex-direction: row;
+    height: 26em;
+    
+}
+.primerBloque>img{
+    width: 73%;
+}
+.primerBloque div{
+    
+    background-color: #037bc0;
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.primerBloque h4,p,span{
+    color: white;
+    width: 80%;
+}
+.segundoBloque{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.segundoBloque img{
+    width: 100%;
+    height: 60%;
+    
+}
+
+.textoSegundo{
+    background-color: #037bc0;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tercerBloque{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    height: 34rem;
+}
+.tercerBloque>div{
+    width: 33.33%;
+}
+.tercerBloque img{
+    width: 100%;
+    height: 45%;
+}
+.texto-TercerBloque{
+    background-color: #037bc0;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    border-top: 0.1rem solid #e1e1e1;
+    width: 100%;
+    justify-content: center;
+    
+}
+footer h3{
+    font-size: 2rem;
 }
