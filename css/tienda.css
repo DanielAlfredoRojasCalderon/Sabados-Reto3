@@ -8,8 +8,16 @@ body{
     justify-content: center;  
     /*distribuye horizontal*/ 
     text-align: center;
+   
     font-family: 'Raleway', sans-serif;
     
+}
+
+h1{
+    font-size: 3.1rem;
+}
+header span{
+    color: rgb(3, 123, 192);
 }
 .titulos{
     width: 99.4%;
@@ -20,12 +28,6 @@ body{
     height: 15vh;
     border-bottom: 0.1rem solid #e1e1e1;
     justify-self: center; 
-}
-h1{
-    font-size: 3.1rem;
-}
-header span{
-    color: rgb(3, 123, 192);
 }
 .navFooter{
     width: 50rem;
@@ -45,92 +47,17 @@ a{
     margin-top: 0.625rem;
      
  }
-.imgPrincipal{
-    width: 94rem;
-    height: 55rem;
-    /*CORTA LA IMAGEN*/
-    clip-path: polygon(0 15%, 100% 15%, 100% 90%, 0% 90%);
-    margin-top: -6rem;
-    margin-bottom: -2.8rem;
-}
-h2{
-    font-size: 2.8rem;
-    margin-bottom: 1.5rem;
-    font-weight: bold;
-    font-family: 'Playfair Display', serif;
-    
-}
-.cateProductos{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 
-    gap: 1rem;
-    height: 21rem ;
-
-
-}
-.divCate{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 25rem;
- 
-}
-
-.divCate>img{
-    width: 100%;
-    border: solid black;
-
-}
-
-.textoBajo{
-    background-color: blue;
-    height: 25rem;
-    width: 100%;
-    align-content: center;
-    align-self: center;
-}
-.segundaSection{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    height: 31rem;  
-}
-.itemSegunCat{
-    background-image: url(img/nosotros.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    
-}
-.sitemSegunCat{
-    background-color: #037bc0;
-    text-align: start;
-    align-content: center;
-    padding-left: 5rem;
-        
-
-}
-.segundaSection h3{
-    color: white;
-    font-size: 2.5rem;
-    padding-bottom: 1.8rem;
-    font-family: 'Playfair Display', serif;
-}
-.segundaSection p{
-    color: white;
-    width: 28rem;
-    font-size: 0.9rem;
-    unicode-bidi: isolate;
-    /*espacio entre palabras*/
-    word-spacing: 0.2rem;
-    /*espacio entre lineas*/
-    line-height: 1.8rem ;
-}
 .bloquePrincipal{
     width: 72rem;
     justify-self: center;
+    margin-top: 2rem;
+    
 
+}
+.bloquePrincipal>h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
 
 }
 .primerBloque{
@@ -179,14 +106,21 @@ h2{
     align-items: center;
     justify-content: center;
 }
+
+
+
 .tercerBloque{
-    display: flex;
+    /* display: flex;
     flex-direction: row;
+     */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
+
     height: 34rem;
 }
 .tercerBloque>div{
-    width: 33.33%;
+    width: 100%;
 }
 .tercerBloque img{
     width: 100%;
@@ -194,21 +128,79 @@ h2{
 }
 .texto-TercerBloque{
     background-color: #037bc0;
-    height: 50%;
+    height: 45%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 0.7rem;
 }
+
+.bloquePrincipal h4{
+    font-size: 1.8rem;
+    margin-bottom: 0.4rem;
+    color: white ;
+}
+.bloquePrincipal p{
+    font-size: 1rem;
+    color: white ;
+    text-align: center;
+    margin-bottom: 0.1rem;
+
+}
+.bloquePrincipal span{
+    font-size: 1.4rem;
+    color: white ;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0.7rem;
+
+}
+
+.bloquePrincipal button{
+    background-color: #8cbc00;
+    color: white;
+    font-weight: bold;
+    border: none;
+    width: 95%;
+    height: 2.7rem;  
+    cursor: pointer;
+}
+
 footer{
-    display: flex;
-    flex-direction: row;
-    justify-self: center;
+    
     border-top: 0.1rem solid #e1e1e1;
-    width: 100%;
-    justify-content: center;
+    padding-top: 3rem;
+    justify-items: center;
+
     
 }
+.contenido-footer{
+    /* display: flex;
+    flex-direction: row; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 1rem;
+    /* justify-content: start; */
+    width: 72rem;
+    height: 15rem;
+
+}
+
+
+.footer-categorias,.footer-Sobre,.footer-Soporte{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+}
+
 footer h3{
-    font-size: 2rem;
+    font-size: 2rem;  
+}
+footer p{
+    color: #000000;
+}
+body>p{
+    color: #000000;
 }

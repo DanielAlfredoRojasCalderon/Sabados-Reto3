@@ -1,0 +1,303 @@
+*{
+    padding: 0.125rem;
+    margin: 0;
+   
+}
+body{
+    
+    justify-content: center;  
+    /*distribuye horizontal*/ 
+    text-align: center;
+   
+    font-family: 'Raleway', sans-serif;
+    
+}
+.titulos{
+    width: 99.4%;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    align-content: center;
+    height: 15vh;
+    border-bottom: 0.1rem solid #e1e1e1;
+    justify-self: center; 
+}
+h1{
+    font-size: 3.1rem;
+}
+header span{
+    color: rgb(3, 123, 192);
+}
+.navFooter{
+    width: 50rem;
+    display: flex;
+    /*centra a los elementos dentro del contenedor NAV*/
+    justify-content: center;
+    /*se alinea a si mismo OSEA AL CONTENEDOR NAV, centro , start , .*/
+    justify-self: center; 
+    margin-top: 1rem;
+    gap: 10rem;
+}
+a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 0.031rem;
+    margin-top: 0.625rem;
+     
+ }
+.imgPrincipal{
+    width: 94rem;
+    height: 55rem;
+    /*CORTA LA IMAGEN*/
+    clip-path: polygon(0 15%, 100% 15%, 100% 90%, 0% 90%);
+    margin-top: -6rem;
+    margin-bottom: -2.8rem;
+}
+h2{
+    font-size: 2.8rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    
+}
+.cateProductos{
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 72rem;
+    gap: 1rem;
+    height: 20rem;
+    justify-self: center;
+
+    padding-bottom: 3rem;
+    
+}
+.divCate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+.divCate>img{
+    width: 100%;
+    height: 70%;
+
+}
+
+.textoBajo{
+    background-color: ;
+    width: 100%;
+    height: 30%;
+    align-content: center;
+
+    
+}
+.textoBajo:hover{
+    background-color: #037bc0;
+    border-bottom-right-radius: 0.5rem;
+    
+}
+
+
+.textoBajo>p{
+    width: 100%;
+    color: #000000;
+}
+
+/* el hover antes del p hace que las acciones se realicen en p cuando ocurra el hover en .textoBajo */
+.textoBajo:hover>p{
+    color: white;
+    font-weight: bold;
+
+
+}
+.segundaSection{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 31rem;  
+}
+.itemSegunCat{
+    background-image: url(../img/nosotros.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+.sitemSegunCat{
+    background-color: #037bc0;
+    text-align: start;
+    align-content: center;
+    padding-left: 5rem;
+        
+
+}
+.segundaSection h3{
+    color: white;
+    font-size: 2.5rem;
+    padding-bottom: 1.8rem;
+    font-family: 'Playfair Display', serif;
+}
+.segundaSection p{
+    color: white;
+    width: 28rem;
+    font-size: 0.9rem;
+    unicode-bidi: isolate;
+    /*espacio entre palabras*/
+    word-spacing: 0.2rem;
+    /*espacio entre lineas*/
+    line-height: 1.8rem ;
+}
+.bloquePrincipal{
+    width: 72rem;
+    justify-self: center;
+
+
+}
+.primerBloque{
+    display: flex;
+    flex-direction: row;
+    height: 26em;
+    
+}
+.primerBloque>img{
+    width: 73%;
+}
+.primerBloque div{
+    
+    background-color: #037bc0;
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.primerBloque h4,p,span{
+    color: white;
+    width: 80%;
+}
+.segundoBloque{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.segundoBloque img{
+    width: 100%;
+    height: 60%;
+    
+}
+
+.textoSegundo{
+    background-color: #037bc0;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.tercerBloque{
+    /* display: flex;
+    flex-direction: row;
+     */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+
+    height: 34rem;
+}
+.tercerBloque>div{
+    width: 100%;
+}
+.tercerBloque img{
+    width: 100%;
+    height: 45%;
+}
+.texto-TercerBloque{
+    background-color: #037bc0;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+}
+
+.bloquePrincipal h4{
+    font-size: 1.8rem;
+    margin-bottom: 0.4rem;
+    color: white ;
+}
+.bloquePrincipal p{
+    font-size: 1rem;
+    color: white ;
+    text-align: center;
+    margin-bottom: 0.1rem;
+
+}
+.bloquePrincipal span{
+    font-size: 1.4rem;
+    color: white ;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0.7rem;
+
+}
+
+.bloquePrincipal button{
+    background-color: #8cbc00;
+    color: white;
+    font-weight: bold;
+    border: none;
+    width: 95%;
+    height: 2.7rem;  
+    cursor: pointer;
+}
+
+footer{
+    
+    border-top: 0.1rem solid #e1e1e1;
+    padding-top: 3rem;
+    justify-items: center;
+
+    
+}
+.contenido-footer{
+    /* display: flex;
+    flex-direction: row; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 1rem;
+    /* justify-content: start; */
+    width: 72rem;
+    height: 15rem;
+
+}
+
+
+.footer-categorias,.footer-Sobre,.footer-Soporte{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+}
+
+footer h3{
+    font-size: 2rem;  
+}
+footer p{
+    color: #000000;
+}
+body>p{
+    color: #000000;
+}

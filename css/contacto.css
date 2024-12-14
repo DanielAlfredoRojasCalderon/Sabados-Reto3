@@ -1,0 +1,126 @@
+*{
+    padding: 0.125rem;
+    margin: 0;
+   
+}
+body{
+    
+    justify-content: center;  
+    /*distribuye horizontal*/ 
+    text-align: center;
+   
+    font-family: 'Raleway', sans-serif;
+    
+}
+.titulos{
+    width: 99.4%;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    align-content: center;
+    height: 15vh;
+    border-bottom: 0.1rem solid #e1e1e1;
+    justify-self: center; 
+}
+h1{
+    font-size: 3.1rem;
+}
+header span{
+    color: rgb(3, 123, 192);
+}
+.navFooter{
+    width: 50rem;
+    display: flex;
+    /*centra a los elementos dentro del contenedor NAV*/
+    justify-content: center;
+    /*se alinea a si mismo OSEA AL CONTENEDOR NAV, centro , start , .*/
+    justify-self: center; 
+    margin-top: 1rem;
+    gap: 10rem;
+}
+a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 0.031rem;
+    margin-top: 0.625rem;
+     
+ }
+
+ h2{
+    font-size: 2.8rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+main{
+    width: 60rem;
+    justify-self: center;
+}
+form{
+    justify-items:  start;
+}
+
+fieldset{
+    width: 100%;
+    text-align: start;
+}
+legend{
+    background-color: #005485;
+    color: white;
+    width: 10rem;
+    font-weight: bold;
+    padding-left: 2rem;
+}
+.boton{
+
+    background-color: #8cbc00;
+    color: white;
+    border: none;
+    font-weight: bold;
+    margin-top: 1rem;
+    height: 1.8rem;
+
+    
+}
+
+
+footer{
+    
+    border-top: 0.1rem solid #e1e1e1;
+    padding-top: 3rem;
+    justify-items: center;
+
+    
+}
+.contenido-footer{
+    /* display: flex;
+    flex-direction: row; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 1rem;
+    /* justify-content: start; */
+    width: 72rem;
+    height: 15rem;
+
+}
+
+
+.footer-categorias,.footer-Sobre,.footer-Soporte{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+}
+
+footer h3{
+    font-size: 2rem;  
+}
+footer p{
+    color: #000000;
+}
+body>p{
+    color: #000000;
+}

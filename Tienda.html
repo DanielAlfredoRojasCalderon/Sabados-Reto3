@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda</title>
+    <link rel="stylesheet" href="css/tienda.css">
 </head>
 <body>
-    <header>
+    <header class="titulos" >
         <h1>Tienda <span>Muebles</span></h1>
     </header>
-    <nav>
+    <nav class="navFooter">
         <a href="index.html">Inicio</a>
         <a href="Nosotros.html">Nosotros</a>
         <a href="Tienda.html">Tienda</a>
@@ -17,29 +18,32 @@
         <a href="Galeria.html">Galería</a>
         <a href="Contacto.html">Contacto</a>
     </nav>
-    <h3>Sobre Nosotros</h3>
-    <section>
-        <div>
-            <img src="img/producto1.jpg" alt="producto1">
-            <div>
-                <h4>Producto 1</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum vitae adipisci rem distinctio quod labore.</p>
-                <span>$1,000,000.00</span>
-                <button>AGREGAR AL CARRITO</button>
-            </div>
-            <div>
+    <section class="bloquePrincipal">
+        <h2>Nuestros Productos</h2>
+        
+            <div class="primerBloque"> 
+                <img src="img/producto1.jpg" alt="producto1">
                 <div>
+                    <h4>Producto 1</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum vitae adipisci rem distinctio quod labore.</p>
+                    <span>$1,000,000.00</span>
+                    <button>AGREGAR AL CARRITO</button>
+                </div>
+            </div>
+
+            <div class="segundoBloque">
+                <div class="first-segundoBloque">
                     <img src="img/producto2.jpg" alt="producto2">
-                    <div>
+                    <div class="textoSegundo">
                         <h4>Producto 2</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum vitae adipisci rem distinctio quod labore.</p>
                         <span>$1,000,000.00</span>
                         <button>AGREGAR AL CARRITO</button>
                     </div>
                 </div>
-                <div>
+                <div class="second-segundoBloque">
                     <img src="img/producto3.jpg" alt="producto3">
-                    <div>
+                    <div class="textoSegundo">
                         <h4>Producto 3</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum vitae adipisci rem distinctio quod labore.</p>
                         <span>$1,000,000.00</span>
@@ -47,28 +51,28 @@
                     </div>
                 </div>
             </div>
-            <div>
+            <div class="tercerBloque">
                 <div>
                     <img src="img/producto4.jpg" alt="producto4">
-                    <div>
+                    <div class="texto-TercerBloque">
                         <h4>Producto 4</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum vitae adipisci rem distinctio quod labore.</p>
                         <span>$1,000,000.00</span>
                         <button>AGREGAR AL CARRITO</button>
                     </div>
                 </div>
-                <div>
+                <div >
                     <img src="img/producto5.jpg" alt="producto5">
-                    <div>
+                    <div class="texto-TercerBloque">
                         <h4>Producto 5</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum vitae adipisci rem distinctio quod labore.</p>
                         <span>$1,000,000.00</span>
                         <button>AGREGAR AL CARRITO</button>
                     </div>
                 </div>
-                <div>
+                <div >
                     <img src="img/producto6.jpg" alt="producto6">
-                    <div>
+                    <div class="texto-TercerBloque">
                         <h4>Producto 6</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum vitae adipisci rem distinctio quod labore.</p>
                         <span>$1,000,000.00</span>
@@ -76,35 +80,35 @@
                     </div>
                 </div>
             </div>
-        </div>
+        
     </section>
-
-
-
     <footer>
-        <div>
-            <h3>Categorías</h3>
-            <p>Cocina</p>
-            <p>Oficina</p>
-            <p>Jardín</p>
-            <p>Cochera</p>
-            <p>Dormitorio</p>
+        <div class="contenido-footer">
+            <div  class="footer-categorias">
+                <h3>Categorías</h3>
+                <a href="#">Cocina</a>
+                <a href="#">Oficina</a>
+                <a href="#">Jardín</a>
+                <a href="#">Cochera</a>
+                <a href="#">Dormitorio</a>
+            </div>
+            <div class="footer-Sobre">
+                <h3>Sobre Nosotros</h3>
+                <a href="#">Misión, visión y Valores</a>
+                <a href="#">Nuestra Historia</a>
+                <a href="#">Carreras</a>
+                <a href="#">Política de Privacidad</a>
+                <a href="#">Términos del Servicio</a>
+            </div>
+            <div class="footer-Soporte">
+                <h3>Soporte</h3>
+                <a href="#">Pregunstas Frecuentes</a>
+                <a href="#">Ayuda en línea</a>
+                <a href="#">Confianza y Seguridad</a>
+            </div>
         </div>
-        <div>
-            <h3>Sobre Nosotros</h3>
-            <p>Nuestra Historia</p>
-            <p>Misión, visión y Valores</p>
-            <p>Carreras</p>
-            <p>Política de Privacidad</p>
-            <p>Términos del Servicio</p>
-        </div>
-        <div>
-            <h3>Soporte</h3>
-            <p>Pregunstas Frecuentes</p>
-            <p>Ayuda en línea</p>
-            <p>Confianza y Seguridad</p>
-        </div>
+        <p>Todos los derechos Reservados, Tienda Muebles</p>
     </footer>
-    <p>Todos los derechos Reservados, Tienda Muebles</p>
+
 </body>
 </html>

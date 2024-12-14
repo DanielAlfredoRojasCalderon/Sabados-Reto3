@@ -1,0 +1,108 @@
+*{
+    padding: 0.125rem;
+    margin: 0;
+   
+}
+body{
+    
+    justify-content: center;  
+    /*distribuye horizontal*/ 
+    text-align: center;
+   
+    font-family: 'Raleway', sans-serif;
+    
+}
+.titulos{
+    width: 99.4%;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    align-content: center;
+    height: 15vh;
+    border-bottom: 0.1rem solid #e1e1e1;
+    justify-self: center; 
+}
+h1{
+    font-size: 3.1rem;
+}
+header span{
+    color: rgb(3, 123, 192);
+}
+.navFooter{
+    width: 50rem;
+    display: flex;
+    /*centra a los elementos dentro del contenedor NAV*/
+    justify-content: center;
+    /*se alinea a si mismo OSEA AL CONTENEDOR NAV, centro , start , .*/
+    justify-self: center; 
+    margin-top: 1rem;
+    gap: 10rem;
+    margin-bottom: 3rem;
+
+}
+a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 0.031rem;
+    margin-top: 0.625rem;
+     
+ }
+h2{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+.imagenes{
+    width: 74.5rem ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-self: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+.imagenes>img{
+    width: 100%;
+    height: 24rem;
+}
+
+
+
+
+footer{
+    
+    border-top: 0.1rem solid #e1e1e1;
+    padding-top: 3rem;
+    justify-items: center;
+
+    
+}
+.contenido-footer{
+    /* display: flex;
+    flex-direction: row; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 1rem;
+    /* justify-content: start; */
+    width: 72rem;
+    height: 15rem;
+
+}
+
+
+.footer-categorias,.footer-Sobre,.footer-Soporte{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+}
+
+footer h3{
+    font-size: 2rem;  
+}
+footer p{
+    color: #000000;
+}
+body>p{
+    color: #000000;
+}

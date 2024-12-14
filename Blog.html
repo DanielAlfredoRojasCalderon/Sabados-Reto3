@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nosotros</title>
+    <title>Blog</title>
+    <link rel="stylesheet" href="css/blog.css">
+
 </head>
 <body>
-    <header>
+    <header class="titulos">
         <h1>Tienda <span>Muebles</span></h1>
     </header>
-    <nav>
+    <nav class="navFooter">
         <a href="index.html">Inicio</a>
         <a href="Nosotros.html">Nosotros</a>
         <a href="Tienda.html">Tienda</a>
@@ -18,15 +20,15 @@
         <a href="Contacto.html">Contacto</a>
     </nav>
     <h2>Nuestro Blog</h2>
-    <main>
-        <section>
+    <main class="bloquePricipal">
+        <section class="bloqueIzquierda">
             <h2>Guía de Colores</h2>
             <img src="img/nosotros.jpg" alt="nosotros">
-            <div>
+            <div class="texto-datos">
                 <p>Fecha: <span>22 de Octubre de 2022</span></p>
                 <p>Escrito por: <span>TiendaMuebles</span></p>
             </div>
-            <div>
+            <div class="descripcion">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus consequuntur tenetur fugit ratione soluta? Inventore molestiae accusantium doloremque molestias, enim optio, harum accusamus quasi omnis eligendi commodi maxime ratione soluta.</p><br>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus consequuntur tenetur fugit ratione soluta? Inventore molestiae accusantium doloremque molestias, enim optio, harum accusamus quasi omnis eligendi commodi maxime ratione soluta.</p>
                 <button>LEER</button>
@@ -35,11 +37,11 @@
 
             <h2>Guía de Colores</h2>
             <img src="img/nosotros.jpg" alt="nosotros">
-            <div>
+            <div class="texto-datos">
                 <p>Fecha: <span>22 de Octubre de 2022</span></p>
                 <p>Escrito por: <span>TiendaMuebles</span></p>
             </div>
-            <div>
+            <div class="descripcion">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus consequuntur tenetur fugit ratione soluta? Inventore molestiae accusantium doloremque molestias, enim optio, harum accusamus quasi omnis eligendi commodi maxime ratione soluta.</p><br>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus consequuntur tenetur fugit ratione soluta? Inventore molestiae accusantium doloremque molestias, enim optio, harum accusamus quasi omnis eligendi commodi maxime ratione soluta.</p>
                 <button>LEER</button>
@@ -47,39 +49,45 @@
             </div>
             
         </section>
-        <section>
+
+        <section class="bloqueDerecha">
             <h3>Otras Entradas de Blog</h3>
-            <p>Guía de Colores</p><br>
-            <p>Nuevos Modelos</p><br>
-            <p>Guía para diseño de interiores</p><br>
-            <p>Guía para diseño de exteriores</p><br>
+            <div class="itemBloqueD">
+                <p>Guía de Colores</p>
+                <p>Nuevos Modelos</p>
+                <p>Guía para diseño de interiores</p>
+                <p>Guía para diseño de exteriores</p>
+            </div>
+            
         </section>
     </main>
 
     <footer>
-        <div>
-            <h3>Categorías</h3>
-            <p>Cocina</p>
-            <p>Oficina</p>
-            <p>Jardín</p>
-            <p>Cochera</p>
-            <p>Dormitorio</p>
+        <div class="contenido-footer">
+            <div  class="footer-categorias">
+                <h3>Categorías</h3>
+                <a href="#">Cocina</a>
+                <a href="#">Oficina</a>
+                <a href="#">Jardín</a>
+                <a href="#">Cochera</a>
+                <a href="#">Dormitorio</a>
+            </div>
+            <div class="footer-Sobre">
+                <h3>Sobre Nosotros</h3>
+                <a href="#">Misión, visión y Valores</a>
+                <a href="#">Nuestra Historia</a>
+                <a href="#">Carreras</a>
+                <a href="#">Política de Privacidad</a>
+                <a href="#">Términos del Servicio</a>
+            </div>
+            <div class="footer-Soporte">
+                <h3>Soporte</h3>
+                <a href="#">Pregunstas Frecuentes</a>
+                <a href="#">Ayuda en línea</a>
+                <a href="#">Confianza y Seguridad</a>
+            </div>
         </div>
-        <div>
-            <h3>Sobre Nosotros</h3>
-            <p>Nuestra Historia</p>
-            <p>Misión, visión y Valores</p>
-            <p>Carreras</p>
-            <p>Política de Privacidad</p>
-            <p>Términos del Servicio</p>
-        </div>
-        <div>
-            <h3>Soporte</h3>
-            <p>Pregunstas Frecuentes</p>
-            <p>Ayuda en línea</p>
-            <p>Confianza y Seguridad</p>
-        </div>
+        <p>Todos los derechos Reservados, Tienda Muebles</p>
     </footer>
-    <p>Todos los derechos Reservados, Tienda Muebles</p>
 </body>
 </html>
